@@ -5,7 +5,9 @@
         <img src="https://placeholderlogo.com/img/placeholder-logo-1.png" alt="logo">
       </div>
       <div class="search_container flex">
-        <button @click="search" class="search_button">Search</button><input v-model="title" type="text" class="search" @keyup.enter="search">
+        <button class="search_button" @click="search">
+          Search
+        </button><input v-model="title" type="text" class="search" @keyup.enter="search">
       </div>
     </div>
     <Nuxt />

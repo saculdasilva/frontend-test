@@ -10,7 +10,7 @@
             {{ movie.Title }}
           </div>
           <img
-            :src="movie.Poster != 'N/A' ? movie.Poster : 'http://placehold.jp/24/b3b3b3/ffffff/200x300.png?text=no_poster'" 
+            :src="movie.Poster != 'N/A' ? movie.Poster : 'http://placehold.jp/24/b3b3b3/ffffff/200x300.png?text=no_poster'"
             alt="poster"
             class="movie_poster"
           >
