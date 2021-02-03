@@ -1,4 +1,4 @@
-# movies
+# omdb code challenge
 
 ## Build Setup
 
